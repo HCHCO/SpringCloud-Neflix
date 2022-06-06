@@ -11,6 +11,7 @@
         <module name="Cloud_borrowService" />
         <module name="common" />
         <module name="Cloud_bookService" />
+        <module name="Eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

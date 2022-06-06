@@ -1,8 +1,14 @@
 server:
-  port: 1236
 spring:
+  application:
+    name:
+      UserService
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://47.115.20.174:6006/springcloud
     username: root
     password: rootpassword
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
