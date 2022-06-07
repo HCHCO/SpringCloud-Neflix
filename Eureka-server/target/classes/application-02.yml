@@ -1,12 +1,12 @@
 server:
-  port: 8801
+  port: 8802
 spring:
   application:
     name: EurekaService
-erukeka:
+eureka:
   instance:
-    hostname: eureka01
+    hostname: eureka02
   client:
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka02:8802/eureka
+      defaultZone: http://eureka01:8801/eureka
