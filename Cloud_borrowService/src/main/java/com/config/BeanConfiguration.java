@@ -9,8 +9,8 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 @LoadBalancerClient(value="UserService",configuration = LoadBalancerConfig.class)
 public class BeanConfiguration {
-    @Bean
-    @LoadBalanced
+//    @Bean
+//    @LoadBalanced
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
