@@ -1,0 +1,26 @@
+server:
+  port: 8500
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8801/eureka,http://localhost:8802/eureka
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: BorrowService
+          uri: lb://borrowservice
+          predicates:
+          - Path=/borrow/**
+        - id: BookService
+          uri: lb://bookservice
+          predicates:
+          - Path=/book/**
+          filters:
+          - AddRequestHeader=Test, Helloworld!
+        - id: UserService
+          uri: lb://userservice
+          predicates:
+            - Path=/user/**

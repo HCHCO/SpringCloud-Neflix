@@ -8,6 +8,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </set>
     </option>

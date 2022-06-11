@@ -14,9 +14,16 @@ import java.util.Collections;
 public class BorrowController {
     @Resource
     BorrowService service;
+
+    @HystrixCommand(fallbackMethod = "onError")
     @RequestMapping("/borrow/{uid}")
     UserBorrowDetail findUserBrrows(@PathVariable("uid")int uid){
         return service.getUserBorrowDetailByUid(uid);
+    }
+
+    UserBorrowDetail onError(int uid){
+        System.out.println("on error");
+        return new UserBorrowDetail(null, Collections.emptyList());
     }
 
 

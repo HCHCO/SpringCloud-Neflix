@@ -16,3 +16,10 @@ eureka:
 feign:
   circuitbreaker:
     enable: true
+
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
