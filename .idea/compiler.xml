@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Cloud_borrowService" />
         <module name="common" />
-        <module name="test" />
+        <module name="Cloud_Config_Server" />
         <module name="Hystrix-web" />
         <module name="Cloud_bookService" />
         <module name="Cloud_UserService" />
@@ -20,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="Cloud_bookService" target="8" />
       <module name="Cloud_borrowService" target="8" />
+      <module name="Cloud_Config_Server" target="8" />
       <module name="Cloud_gateway_server" target="8" />
       <module name="Cloud_UserService" target="8" />
       <module name="common" target="8" />
@@ -33,6 +34,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Cloud_Config_Server" options="-parameters" />
       <module name="Cloud_UserService" options="-parameters" />
       <module name="Cloud_bookService" options="-parameters" />
       <module name="Cloud_borrowService" options="-parameters" />

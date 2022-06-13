@@ -11,8 +11,8 @@
         <module>eureka-server</module>
         <module>Eureka-server</module>
         <module>Hystrix-web</module>
-        <module>test</module>
         <module>Cloud_gateway_server</module>
+        <module>Cloud_Config_Server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

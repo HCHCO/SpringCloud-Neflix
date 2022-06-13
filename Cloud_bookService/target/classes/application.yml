@@ -4,11 +4,6 @@ spring:
   application:
     name:
       BookService
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.115.20.174:6006/springcloud
-    username: root
-    password: rootpassword
 eureka:
   client:
     service-url:

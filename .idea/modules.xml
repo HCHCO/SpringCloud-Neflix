@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cloud_Config_Server/Cloud_Config_Server.iml" filepath="$PROJECT_DIR$/Cloud_Config_Server/Cloud_Config_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cloud_UserService/Cloud_UserService.iml" filepath="$PROJECT_DIR$/Cloud_UserService/Cloud_UserService.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cloud_bookService/Cloud_bookService.iml" filepath="$PROJECT_DIR$/Cloud_bookService/Cloud_bookService.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cloud_borrowService/Cloud_borrowService.iml" filepath="$PROJECT_DIR$/Cloud_borrowService/Cloud_borrowService.iml" />
@@ -10,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/Hystrix-web/Hystrix-web.iml" filepath="$PROJECT_DIR$/Hystrix-web/Hystrix-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleSpringCloud.iml" filepath="$PROJECT_DIR$/simpleSpringCloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>

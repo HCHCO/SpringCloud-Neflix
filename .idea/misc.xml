@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/Hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
       </set>
     </option>
   </component>

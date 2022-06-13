@@ -1,0 +1,18 @@
+server:
+  port: 8700
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:/Users/Administrator/Desktop/gitclone/config-repo
+          default-label: master
+eureka:
+  instance:
+    hostname: eureka01
+  client:
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka01:8801/eureka,http://eureka02:8802/eureka
