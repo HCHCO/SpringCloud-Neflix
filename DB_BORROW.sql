@@ -4,7 +4,7 @@
  Source Server         : book
  Source Server Type    : MySQL
  Source Server Version : 50738
- Source Host           : 47.115.20.174:6006
+ Source Host           : localhost:3306
  Source Schema         : springcloud
 
  Target Server Type    : MySQL
